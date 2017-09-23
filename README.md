@@ -1,7 +1,7 @@
-# UAV-path-following-under-time-varying-wind
+# UAV path following under time varying wind
 A simulation of UAV path following stratagy under time varying wind.
 
-Introduction:
+## Abstract:
 
 An adaptive control scheme for Unmanned Aerial Vehicles (UAVs) path following under slowly time-varying wind is developed. 
 The proposed control strategy integrates the path following law based on the vector field
@@ -16,7 +16,15 @@ slowly time-varying wind conditions, the proposed method
 compensates for the lack of knowledge of the wind vector,
 and attains a smaller path following error than state-of-theart vector field method.
 
-Use of code:
+For details of method, please read the paper:
+
+Bingyu Zhou, H. Satyavada and S. Baldi, "Adaptive path following for Unmanned Aerial Vehicles in time-varying unknown wind environments," 2017 American Control Conference (ACC), Seattle, WA, 2017, pp. 1127-1132.
+doi: 10.23919/ACC.2017.7963104
+
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7963104&isnumber=7962914
+
+
+## Use of code:
 
 Two methods are implemented in the Matlab/Simulink platform. 
 
